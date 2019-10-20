@@ -1,6 +1,6 @@
 {
   "name": "convex-polygon-scaler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convex polygon scaler by a fixed amount",
   "scripts": {
     "clean": "rm -rf dist; rm -rf demo",
