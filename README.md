@@ -22,7 +22,7 @@ Works in node.js and in the browser.
 Polygon is a list of 2D vectors `[x,y]` in clockwise or counter-clockwise order.
 
 ```js
-const _polygon = [[100, 100], [100, 200], [200, 200], [200, 100]]
+const polygon = [[100, 100], [100, 200], [200, 200], [200, 100]]
 const dwarf = polygonScaler(polygon, -10)
 // [[110,190],[190,190],[190,110],[110,110]]
 ```
