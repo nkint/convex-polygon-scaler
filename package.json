@@ -1,0 +1,59 @@
+{
+  "name": "convex-polygon-scaler",
+  "version": "1.0.0",
+  "description": "Convex polygon scaler by a fixed amount",
+  "scripts": {
+    "clean": "rm -rf dist; rm -rf demo",
+    "build-dist": "microbundle",
+    "build-demo": "parcel build src/demo/index.html --out-dir demo --public-url ./",
+    "build": "npm run clean; npm run build-dist; npm run build-demo",
+    "deploy": "git subtree push --prefix demo origin gh-pages",
+    "start": "parcel src/demo/index.html",
+    "test": "tsc && echo test"
+  },
+  "keywords": [
+    "scale",
+    "2D",
+    "polygon",
+    "convex",
+    "geometry"
+  ],
+  "author": {
+    "name": "alberto",
+    "email": "alberto.massa@ymail.com",
+    "url": "https://twitter.com/nkint"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@thi.ng/checks": "^2.4.0",
+    "@thi.ng/geom": "^1.7.6",
+    "@thi.ng/geom-isec": "^0.3.8",
+    "@thi.ng/math": "^1.4.2",
+    "@thi.ng/transducers": "^5.4.5",
+    "@thi.ng/vectors": "^3.3.1",
+    "src": "^1.1.2"
+  },
+  "devDependencies": {
+    "@thi.ng/hdom": "^9.0.0-alpha1",
+    "@thi.ng/hiccup-svg": "^3.3.1",
+    "microbundle": "^0.11.0",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.6.4"
+  },
+  "browserslist": [
+    "last 3 Chrome versions",
+    "Firefox 63",
+    "Node 11"
+  ],
+  "browser": {
+    "process": false
+  },
+  "source": "src/index.ts",
+  "main": "dist/polygon-scaler.js",
+  "umd:main": "dist/polygon-scaler.umd.js",
+  "module": "dist/polygon-scaler.m.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/"
+  ]
+}
