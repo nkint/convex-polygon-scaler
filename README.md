@@ -13,6 +13,8 @@ and is not dependent by the area of the polygon.
 
 ## Usage example
 
+Works in node.js and in the browser.
+
 Polygon is a list of 2D vectors `[x,y]` in clockwise or counter-clockwise order.
 
 ```js
