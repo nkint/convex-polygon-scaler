@@ -30,8 +30,7 @@
     "@thi.ng/geom-isec": "^0.3.8",
     "@thi.ng/math": "^1.4.2",
     "@thi.ng/transducers": "^5.4.5",
-    "@thi.ng/vectors": "^3.3.1",
-    "src": "^1.1.2"
+    "@thi.ng/vectors": "^3.3.1"
   },
   "devDependencies": {
     "@thi.ng/hdom": "^9.0.0-alpha1",
