@@ -1,6 +1,8 @@
 # Convex polygon scaler
 
-Scale a convex polygon by a fixed amount.
+Scale a [convex polygon](https://en.wikipedia.org/wiki/Convex_polygon) by a fixed amount.
+
+![Screenshot](screenshot.png)
 
 ## How does it differs from scale?
 
@@ -25,4 +27,4 @@ const dwarf = polygonScaler(polygon, -10)
 
 ## Credits
 
-Written in Typescript with @thi.ng umbrella library.
+Written in Typescript with [@thi.ng umbrella library](https://github.com/thi-ng/umbrella).
