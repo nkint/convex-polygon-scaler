@@ -4,6 +4,8 @@ Scale a [convex polygon](https://en.wikipedia.org/wiki/Convex_polygon) by a fixe
 
 ![Screenshot](screenshot.png)
 
+[(demo)](https://nkint.github.io/convex-polygon-scaler/)
+
 ## How does it differs from scale?
 
 This method is area independent.
